@@ -6,6 +6,9 @@ __pycache__/
 *.pyc
 *.pyo
 
+# Claude Code working file
+CLAUDE.md
+
 # OS junk
 Thumbs.db
 desktop.ini
