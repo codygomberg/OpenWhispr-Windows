@@ -1,5 +1,7 @@
 # OpenWhispr Windows
 
+A Windows port of [OpenWhispr](https://github.com/MrPrinceRawat/OpenWhispr) by [@MrPrinceRawat](https://github.com/MrPrinceRawat) — originally built for macOS using Swift and WhisperKit. This version rebuilds the app in Python so it runs natively on Windows.
+
 A Windows voice-to-text dictation app that runs silently in the system tray. Hold a key, speak, release — your words are transcribed and pasted into whatever you're typing in, instantly.
 
 Powered by [faster-whisper](https://github.com/SYSTRAN/faster-whisper) for transcription and [Qwen3-0.6B](https://huggingface.co/Qwen/Qwen3-0.6B) for optional grammar polishing.
