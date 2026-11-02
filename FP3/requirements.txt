@@ -1,0 +1,29 @@
+# OpenWhispr Windows — Python dependencies
+# Install via install.bat (do not run pip manually)
+
+# GPU-accelerated speech transcription
+faster-whisper
+
+# GPU-accelerated language model (grammar polishing)
+# torch is installed separately in install.bat with the CUDA 12.8 index (required for RTX 5070 Ti / Blackwell)
+transformers
+accelerate
+
+# UI
+PyQt6
+
+# Audio recording
+sounddevice
+
+# Keyboard hotkeys
+pynput
+
+# Clipboard
+pyperclip
+
+# Windows active-window detection
+pywin32
+psutil
+
+# Tray icon drawing
+Pillow
